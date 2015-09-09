@@ -1,0 +1,7 @@
+(ns JOC_Map)
+(def hmap (hash-map :a 1 :b 2 :c 5))
+(hmap :a)
+(into hmap {:d 6})
+(apply hash-map [:a 1 :c 2])
+(zipmap [:a :b] [11 22])
+(sorted-map :b 12 :a 14)
